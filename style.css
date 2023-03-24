@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+
+/************* Container *************/
+.container {
+    width: 860px;
+    margin: auto;
+    margin-top: 24px;
+    padding: 50px;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 24px;
+}
+
+
+/************* Header *************/
+.logo {
+    margin: auto;
+    width: 180px;
+
+    display: block;
+}
+
+.header-title {
+    margin-bottom: 8px;
+
+    color: #00dd00;
+    text-align: center;
+}
+
+
+/************* Barra azioni *************/
+.action-bar {
+    padding: 10px;
+    background-color: #00dd00;
+    text-align: center;
+}
+
+
+/************* Card monopattino *************/
+.card {
+    margin-top: 24px;
+
+    border-radius: 8px;
+}
+
+.card > div {
+    margin-bottom: 8px;
+}
+
+.card h2{
+    margin: 0;
+
+    display: inline-block;
+}
+
+
+/************* Barra della ricarica *************/
+.recharge {
+    height: 24px;
+    
+    border-radius: 4px;
+}
+
+.recharge.recharge--green {
+    width: 500px;
+    background-color: #11c611;
+}
+
+.recharge.recharge--orange {
+    width: 330px;
+    background-color: #f4b624;
+}
+
+.recharge.recharge--red {
+    width: 160px;
+    background-color: #b74134;
+}
